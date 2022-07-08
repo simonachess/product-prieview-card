@@ -2,7 +2,7 @@ export default function App() {
 	return (
 		<div className="h-screen flex justify-center items-start md:items-center px-4 py-7 md:px-0 md:py-0">
 			<div className="flex flex-col sm:flex-row w-full md:w-[600px] md:h-[450px] bg-[#FFFFFF] rounded-xl">
-				<div className="w-full md:w-1/2">
+				<div className="w-full md:w-1/2 flex justify-center">
 					<img src="/img/image-product-desktop.jpg" alt="perfume" className="rounded-t-xl md:rounded-bl-xl md:rounded-tl-xl md:rounded-t-none md:shadow-md"
 						srcSet="/img/image-product-mobile.jpg 686w, /img/image-product-desktop.jpg 900w"
 						size="(max-width: 640px) 686px, 900px"/>
