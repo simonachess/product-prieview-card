@@ -2,12 +2,12 @@ export default function App() {
 	return (
 		<div className="h-screen flex justify-center items-start md:items-center px-4 py-7 md:px-0 md:py-0">
 			<div className="flex flex-col sm:flex-row w-full md:w-[600px] md:h-[450px] bg-[#FFFFFF] rounded-xl">
-				<div className="w-full md:w-1/2 flex justify-center">
+				<header className="w-full md:w-1/2 flex justify-center">
 					<img src="/img/image-product-desktop.jpg" alt="perfume" className="rounded-t-xl md:rounded-bl-xl md:rounded-tl-xl md:rounded-t-none md:shadow-md"
 						srcSet="/img/image-product-mobile.jpg 686w, /img/image-product-desktop.jpg 900w"
-						size="(max-width: 640px) 686px, 900px"/>
-				</div>	
-				<div className="w-full md:w-1/2 p-6 md:p-7">
+						sizes="(max-width: 640px) 686px, 900px"/>
+				</header>	
+				<main className="w-full md:w-1/2 p-6 md:p-7">
 					<span className="uppercase font-montserrat tracking-[5px] text-xs">Perfume</span>
 					<h1 className="text-[32px] font-bold font-body text-[#1C232B] mb-4 md:mb-6 mt-3 md:mt-5 leading-8">
 						Gabrielle Essence Eau De Parfum
@@ -25,10 +25,10 @@ export default function App() {
 					</div>
 					<button className="bg-[#3D8168] text-[#FFFFFF] w-full rounded-lg p-3 font-bold flex justify-center items-center hover:bg-[#1A4032]"
 						onClick={()=>{}}>
-							<img src="/img/icon-cart.svg" width="15" height="15"></img>
+							<img src="/img/icon-cart.svg" width="15" height="15" alt="cart"></img>
 							<span className="ml-2.5">Add to Cart</span>
 					</button>
-				</div>
+				</main>
 			</div>
 		</div>
 	)
